@@ -33,11 +33,13 @@ make install
 
 If you have libraries installed in non-standard locations, you might need to pass in parameters to cmake.  Commonly useful parameters are
 
-Install some prerqeuisites
+Install some prereqeuisites
 
 ```
 sudo apt-get install expat
 sudo apt-get install libexpat1-dev
+sudo apt-get install postgresql-9.5-pgrouting
+
 ```
 
 CMAKE options:
